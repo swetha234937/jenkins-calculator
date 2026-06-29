@@ -8,8 +8,8 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            steps {
-                checkout scm
+            
+                https://github.com/Repo-Testing-Account/collabration.git
             }
         }
         stage('Build and Test') {
